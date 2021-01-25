@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="437.0" prefWidth="323.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.thogakade.controller.DashBoardFormController">
+   <children>
+      <ImageView fitHeight="473.0" fitWidth="331.0" layoutX="-7.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/pexels-photo-4004375.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="79.0" layoutY="24.0" text="THOGAKADE" textFill="WHITE">
+         <font>
+            <Font name="Bell MT Bold" size="25.0" />
+         </font>
+      </Label>
+      <Separator layoutY="65.0" prefHeight="2.0" prefWidth="324.0" />
+      <Button layoutX="42.0" layoutY="92.0" mnemonicParsing="false" onAction="#btnCustomerOnAction" opacity="0.0" prefHeight="88.0" prefWidth="235.0" />
+      <ImageView fitHeight="78.0" fitWidth="98.0" layoutX="56.0" layoutY="97.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/online_store_80px.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="159.0" layoutY="121.0" prefHeight="21.0" prefWidth="86.0" text="Customer" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="45.0" layoutY="206.0" mnemonicParsing="false" onAction="#btnItemOnAction" opacity="0.0" prefHeight="88.0" prefWidth="235.0" />
+      <ImageView fitHeight="78.0" fitWidth="91.0" layoutX="48.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/purchase_order_50px.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="163.0" layoutY="235.0" prefHeight="21.0" prefWidth="86.0" text="Item" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="46.0" layoutY="323.0" mnemonicParsing="false" onAction="#btnOrderOnAction" opacity="0.0" prefHeight="88.0" prefWidth="235.0" />
+      <ImageView fitHeight="78.0" fitWidth="78.0" layoutX="48.0" layoutY="328.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/ingredients_50px.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="163.0" layoutY="352.0" prefHeight="21.0" prefWidth="86.0" text="Order" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
