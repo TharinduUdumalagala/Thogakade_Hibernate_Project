@@ -24,9 +24,18 @@
          </font>
       </Label>
       <Separator layoutY="78.0" prefHeight="6.0" prefWidth="568.0" />
-      <JFXTextField fx:id="txtCode" focusColor="WHITE" layoutX="33.0" layoutY="132.0" prefHeight="31.0" prefWidth="228.0" promptText="Code" unFocusColor="WHITE" />
-      <JFXTextField fx:id="txtDescription" focusColor="WHITE" layoutX="305.0" layoutY="132.0" prefHeight="31.0" prefWidth="228.0" promptText="Description" unFocusColor="WHITE" />
-      <JFXTextField fx:id="txtPrice" focusColor="WHITE" layoutX="33.0" layoutY="213.0" prefHeight="31.0" prefWidth="228.0" promptText="Price" unFocusColor="WHITE" />
+      <JFXTextField fx:id="txtCode" focusColor="WHITE" layoutX="33.0" layoutY="132.0" prefHeight="31.0" prefWidth="228.0" promptText="Code" style="-fx-background-color: ffffff;" unFocusColor="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="txtDescription" focusColor="WHITE" layoutX="305.0" layoutY="132.0" prefHeight="31.0" prefWidth="228.0" promptText="Description" style="-fx-background-color: ffffff;" unFocusColor="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="txtPrice" focusColor="WHITE" layoutX="33.0" layoutY="213.0" prefHeight="31.0" prefWidth="228.0" promptText="Price" style="-fx-background-color: ffffff;" unFocusColor="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></JFXTextField>
       <JFXButton layoutX="186.0" layoutY="269.0" onAction="#btnSave" prefHeight="31.0" prefWidth="197.0" style="-fx-background-color: #1EF7B3;" text="Save" />
       <JFXButton layoutX="410.0" layoutY="269.0" onAction="#btnUpdate" prefHeight="31.0" prefWidth="134.0" style="-fx-background-color: #E3FF5C;" text="Update" />
       <TableView fx:id="tblItem" layoutX="26.0" layoutY="319.0" prefHeight="227.0" prefWidth="524.0">

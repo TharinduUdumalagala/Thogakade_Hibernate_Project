@@ -25,10 +25,22 @@
          </font>
       </Label>
       <Separator layoutY="68.0" prefHeight="7.0" prefWidth="570.0" />
-      <JFXTextField fx:id="txtId" focusColor="WHITE" layoutX="34.0" layoutY="105.0" prefHeight="31.0" prefWidth="218.0" promptText="Id" unFocusColor="WHITE" />
-      <JFXTextField fx:id="txtName" focusColor="WHITE" layoutX="292.0" layoutY="105.0" prefHeight="31.0" prefWidth="218.0" promptText="Name" unFocusColor="WHITE" />
-      <JFXTextField fx:id="txtAddress" focusColor="WHITE" layoutX="34.0" layoutY="166.0" prefHeight="31.0" prefWidth="218.0" promptText="Address" unFocusColor="WHITE" />
-      <JFXTextField fx:id="txtSalary" focusColor="WHITE" layoutX="292.0" layoutY="166.0" prefHeight="31.0" prefWidth="218.0" promptText="Salary" unFocusColor="WHITE" />
+      <JFXTextField fx:id="txtId" focusColor="WHITE" labelFloat="true" layoutX="34.0" layoutY="105.0" prefHeight="31.0" prefWidth="218.0" promptText="Id" style="-fx-background-color: ffffff;" unFocusColor="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="txtName" focusColor="WHITE" labelFloat="true" layoutX="292.0" layoutY="105.0" prefHeight="31.0" prefWidth="218.0" promptText="Name" style="-fx-background-color: ffffff;" unFocusColor="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="txtAddress" focusColor="WHITE" labelFloat="true" layoutX="34.0" layoutY="166.0" prefHeight="31.0" prefWidth="218.0" promptText="Address" style="-fx-background-color: ffffff;" unFocusColor="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="txtSalary" focusColor="WHITE" labelFloat="true" layoutX="292.0" layoutY="166.0" prefHeight="31.0" prefWidth="218.0" promptText="Salary" style="-fx-background-color: ffffff;" unFocusColor="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></JFXTextField>
       <TableView fx:id="tbl" layoutX="14.0" layoutY="294.0" opacity="0.83" prefHeight="241.0" prefWidth="544.0">
         <columns>
           <TableColumn fx:id="colId" prefWidth="84.0" text="Id" />
