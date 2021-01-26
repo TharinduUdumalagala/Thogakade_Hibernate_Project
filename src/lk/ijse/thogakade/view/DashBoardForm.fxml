@@ -8,19 +8,19 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="root" prefHeight="437.0" prefWidth="323.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.thogakade.controller.DashBoardFormController">
+<AnchorPane fx:id="root" prefHeight="570.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.thogakade.controller.DashBoardFormController">
    <children>
-      <ImageView fitHeight="473.0" fitWidth="331.0" layoutX="-7.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="570.0" fitWidth="570.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../asserts/pexels-photo-4004375.jpeg" />
+            <Image url="@../asserts/www.interpon.jpg" />
          </image>
       </ImageView>
-      <Label layoutX="79.0" layoutY="24.0" text="THOGAKADE" textFill="WHITE">
+      <Label layoutX="185.0" layoutY="25.0" text="THOGAKADE" textFill="WHITE">
          <font>
             <Font name="Bell MT Bold" size="25.0" />
          </font>
       </Label>
-      <Separator layoutY="65.0" prefHeight="2.0" prefWidth="324.0" />
+      <Separator layoutY="65.0" prefHeight="1.0" prefWidth="570.0" />
       <Button layoutX="42.0" layoutY="92.0" mnemonicParsing="false" onAction="#btnCustomerOnAction" opacity="0.0" prefHeight="88.0" prefWidth="235.0" />
       <ImageView fitHeight="78.0" fitWidth="98.0" layoutX="56.0" layoutY="97.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -33,7 +33,7 @@
          </font>
       </Label>
       <Button layoutX="45.0" layoutY="206.0" mnemonicParsing="false" onAction="#btnItemOnAction" opacity="0.0" prefHeight="88.0" prefWidth="235.0" />
-      <ImageView fitHeight="78.0" fitWidth="91.0" layoutX="48.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="78.0" fitWidth="91.0" layoutX="56.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../asserts/purchase_order_50px.png" />
          </image>
@@ -44,7 +44,7 @@
          </font>
       </Label>
       <Button layoutX="46.0" layoutY="323.0" mnemonicParsing="false" onAction="#btnOrderOnAction" opacity="0.0" prefHeight="88.0" prefWidth="235.0" />
-      <ImageView fitHeight="78.0" fitWidth="78.0" layoutX="48.0" layoutY="328.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="78.0" fitWidth="78.0" layoutX="63.0" layoutY="328.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../asserts/ingredients_50px.png" />
          </image>
@@ -54,5 +54,55 @@
             <Font size="20.0" />
          </font>
       </Label>
+      <ImageView fitHeight="31.0" fitWidth="27.0" layoutX="370.0" layoutY="517.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/star_32px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="46.0" layoutX="447.0" layoutY="507.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/star_32px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="46.0" layoutX="511.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/star_32px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="63.0" layoutX="498.0" layoutY="498.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/star_32px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="27.0" layoutX="516.0" layoutY="382.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/star_32px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="46.0" layoutX="461.0" layoutY="456.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/star_32px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="46.0" layoutX="404.0" layoutY="511.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/star_32px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="46.0" layoutX="507.0" layoutY="456.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/star_32px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="46.0" layoutX="442.0" layoutY="435.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/star_32px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="27.0" layoutX="424.0" layoutY="421.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/star_32px.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
